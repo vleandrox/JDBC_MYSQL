@@ -1,4 +1,3 @@
-import java.sql.Statement;
 import java.util.Scanner;
 
 import persistencia.DAO;
@@ -8,6 +7,7 @@ public class Main extends DAO{
     public static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) throws Exception {        
+        
         Main main = new Main();
         System.out.print("INGRESE LA CONSULTA : ");
         String sql = sc.nextLine();
