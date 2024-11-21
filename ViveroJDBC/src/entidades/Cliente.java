@@ -156,4 +156,8 @@ public class Cliente {
     public void setLimiteCredito(double limiteCredito) {
         this.limiteCredito = limiteCredito;
     }
+
+    public void mostrarInformacionBasica() {
+        System.out.println(idCliente + " - " + nombreContacto + " - " + apellidoContacto);
+    }
 }
